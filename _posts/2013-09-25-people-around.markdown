@@ -19,7 +19,7 @@ slug: "people"
 
 ![我们]({{site.baseurl}}/images/people/x2160077755.jpg)
 
-![夏天来了]({{site.baseurl}}/images/people/x2160077755.jpg)
+![夏天来了]({{site.baseurl}}/images/people/x2162562446.jpg)
 
 ![段总]({{site.baseurl}}/images/people/x2162562500.jpg)
 
