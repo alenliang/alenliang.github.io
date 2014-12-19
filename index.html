@@ -1,8 +1,76 @@
 ---
-layout: default
+layout: menu
 ---
 
-<div class="home">
+<div class="nav-wrapper">
+    <div class="project-row">
+      <a href="/" class="collapsed">
+        <div class="index">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
+          <line class="hor" fill="none" stroke="#FFFFFF" x1="0" y1="12.5" x2="25" y2="12.5"></line>
+          <line class="ver" fill="none" stroke="#FFFFFF" x1="12.5" y1="0" x2="12.5" y2="25"></line>
+          <line class="top" fill="none" stroke="#FFFFFF" x1="0" y1="20.5" x2="25" y2="20.5"></line>
+          <line class="bot" fill="none" stroke="#FFFFFF" x1="0" y1="4.5" x2="25" y2="4.5"></line>
+        </svg>
+        </div>
+        <div class="desc">
+          <div class="name">
+            <span class="meta">Author</span>
+            <p>Alen Liang</p>
+          </div>
+          <div class="type">
+            <span class="meta">Type</span>
+            <p>Coder</p>
+          </div>
+          <div class="year">
+            <span class="meta">Year</span>
+            <p>1992</p>
+          </div>
+          <div class="team">
+            <span class="meta">Team</span>
+            <p>Killow</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% for post in site.posts %}
+    <div class="project-row">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="collapsed">
+        <div class="index">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
+          <line class="hor" fill="none" stroke="#FFFFFF" x1="0" y1="12.5" x2="25" y2="12.5"></line>
+          <line class="ver" fill="none" stroke="#FFFFFF" x1="12.5" y1="0" x2="12.5" y2="25"></line>
+          <line class="top" fill="none" stroke="#FFFFFF" x1="0" y1="20.5" x2="25" y2="20.5"></line>
+          <line class="bot" fill="none" stroke="#FFFFFF" x1="0" y1="4.5" x2="25" y2="4.5"></line>
+        </svg>
+        </div>
+        <div class="desc">
+          <div class="name">
+            <span class="meta">Project</span>
+            <p>{{ post.title }}</p>
+          </div>
+          <div class="type">
+            <span class="meta">Type</span>
+            <p>{{ post.type }}</p>
+          </div>
+          <div class="year">
+            <span class="meta">Year</span>
+            <p>{{ post.date | date: "%Y" }}</p>
+          </div>
+          <div class="team">
+            <span class="meta">Team</span>
+            <p>{{ post.team | "none" }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+</div>
+<div class="bg-wrapper">
+  
+</div>
+
+<!--div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -20,4 +88,4 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</div-->
