@@ -1,0 +1,42 @@
+---
+layout: menu
+---
+<div id="nav-wrapper">
+	<div class="project-row header">
+		<a href="/">
+			<div class="index">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
+					<line class="hor" fill="none" stroke="#FFFFFF" x1="0" y1="12.5" x2="25" y2="12.5"></line>
+					<line class="ver" fill="none" stroke="#FFFFFF" x1="12.5" y1="0" x2="12.5" y2="25"></line>
+					<line class="top" fill="none" stroke="#FFFFFF" x1="0" y1="20.5" x2="25" y2="20.5"></line>
+					<line class="bot" fill="none" stroke="#FFFFFF" x1="0" y1="4.5" x2="25" y2="4.5"></line>
+				</svg>
+			</div>
+		</a>
+		<div class="desc">
+            <div class="name">
+            	<span class="meta">{{ page.categories }}</span>
+            	<p>{{ page.title }}</p>
+            </div>
+            <div class="type">
+            	<span class="meta">Type</span>
+            <p>{{ page.type }}</p>
+            </div>
+            <div class="year">
+            	<span class="meta">Year</span>
+            	<p>{% if page.date %}
+            			{{ page.date | date: "%Y" }}
+            		{% else %}
+            			1992
+            		{% endif %}</p>
+            </div>
+            <div class="team">
+            	<span class="meta">Team</span>
+            	<p>{{ page.team | "none" }}</p>
+          	</div>
+		</div>
+	</div>
+</div>
+<div id="content-wrapper">
+	{{ content }}
+</div>

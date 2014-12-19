@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head_top.html %}
-  <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
-  {% include head_bottom.html %}
+  {% include head_custom.html %}
 
-  <body>
-    <div class="wrapper">
+  <body class="{{ page.categories }}">
+    <div id="wrapper">
       {{ content }}
     </div>
   </body>

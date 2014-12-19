@@ -2,9 +2,9 @@
 layout: menu
 ---
 
-<div class="nav-wrapper">
-    <div class="project-row">
-      <a href="/" class="collapsed">
+<div id="nav-wrapper">
+    <div class="project-row" data-slug="bio">
+      <a href="{{ "about/" | prepend: site.baseurl }}" class="collapsed">
         <div class="index">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
           <line class="hor" fill="none" stroke="#FFFFFF" x1="0" y1="12.5" x2="25" y2="12.5"></line>
@@ -15,7 +15,7 @@ layout: menu
         </div>
         <div class="desc">
           <div class="name">
-            <span class="meta">Author</span>
+            <span class="meta">About</span>
             <p>Alen Liang</p>
           </div>
           <div class="type">
@@ -34,7 +34,7 @@ layout: menu
       </a>
     </div>
     {% for post in site.posts %}
-    <div class="project-row">
+    <div class="project-row" data-slug="{{ post.slug }}">
       <a href="{{ post.url | prepend: site.baseurl }}" class="collapsed">
         <div class="index">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve" width="25" height="25">
@@ -46,7 +46,7 @@ layout: menu
         </div>
         <div class="desc">
           <div class="name">
-            <span class="meta">Project</span>
+            <span class="meta">{{ post.categories }}</span>
             <p>{{ post.title }}</p>
           </div>
           <div class="type">
@@ -66,26 +66,9 @@ layout: menu
     </div>
     {% endfor %}
 </div>
-<div class="bg-wrapper">
-  
+<div id="bg-wrapper">
+  <div class="bg-image bio" style="background-image: url('{{ "/images/index/avatar.jpg" | prepend: site.baseurl }}')"></div>
+  {% for post in site.posts %}
+    <div class="bg-image {{ post.slug }}" style="background-image: url('{{ post.coverimg | prepend: site.baseurl }}')"></div>
+  {% endfor %}
 </div>
-
-<!--div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div-->

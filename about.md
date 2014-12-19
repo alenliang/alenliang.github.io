@@ -1,11 +1,17 @@
 ---
-layout: page
-title: About
+layout: project
+title:  "Alen Liang"
 permalink: /about/
+type: "Coder"
+team: Killow
+categories: about
+coverimg: "/images/index/avatar.jpg"
+slug: "bio"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<h1>hi there!</h1>
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<p>一个想去管理水库的程序员。</p>
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+![我]({{site.baseurl}}/images/index/avatar.jpg)
+
