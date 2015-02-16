@@ -1,2 +1,2 @@
 # Alen's Blog
-hello there! its' a **test**.
+hello there! its' my **blog**.
