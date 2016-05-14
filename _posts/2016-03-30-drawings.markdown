@@ -1,0 +1,31 @@
+---
+layout: project
+title:  "Sketches"
+type: "Photograph"
+team: "none"
+categories: project
+coverimg: "/images/snap/resultdetail.png"
+slug: "app"
+---
+
+<h1>Sketches</h1>
+<p>全是临摹 / 感谢男朋友的 iPad 和笔</p>
+<h2>上色</h2>
+![1h work]({{site.baseurl}}/images/sketch/1h6.png)
+![1h work]({{site.baseurl}}/images/sketch/1h4.png)
+![1h work]({{site.baseurl}}/images/sketch/1h2.png)
+![1h work]({{site.baseurl}}/images/sketch/1h3.png)
+![1h work]({{site.baseurl}}/images/sketch/1h1.png)
+<h2>速写</h2>
+![5min work]({{site.baseurl}}/images/sketch/5min10.png)
+![5min work]({{site.baseurl}}/images/sketch/5min9.png)
+![5min work]({{site.baseurl}}/images/sketch/5min8.png)
+![5min work]({{site.baseurl}}/images/sketch/5min7.png)
+![5min work]({{site.baseurl}}/images/sketch/5min6.png)
+![5min work]({{site.baseurl}}/images/sketch/5min5.png)
+![5min work]({{site.baseurl}}/images/sketch/5min4.png)
+![5min work]({{site.baseurl}}/images/sketch/5min3.png)
+![5min work]({{site.baseurl}}/images/sketch/5min2.png)
+![5min work]({{site.baseurl}}/images/sketch/5min1.png)
+<h2>静物</h2>
+![10min work]({{site.baseurl}}/images/sketch/10min1.png)
