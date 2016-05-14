@@ -4,7 +4,7 @@ title:  "Sketches"
 type: "Photograph"
 team: "none"
 categories: project
-coverimg: "/images/snap/resultdetail.png"
+coverimg: "/images/sketch/1h6.png"
 slug: "app"
 ---
 
