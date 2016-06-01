@@ -11,6 +11,8 @@ slug: "app"
 <h1>Sketches</h1>
 <p>全是临摹 / 感谢男朋友的 iPad 和笔</p>
 <h2>上色</h2>
+![1h work]({{site.baseurl}}/images/sketch/1h8.jpeg)
+![1h work]({{site.baseurl}}/images/sketch/1h7.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h6.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h4.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h2.png)
