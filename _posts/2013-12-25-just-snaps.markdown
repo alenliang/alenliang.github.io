@@ -12,11 +12,11 @@ slug: "snap"
 
 <p>I just love **Point and shoot Camera**.</p>
 
-<p>2016</p>
-![before]({{site.baseurl}}/images/snap/now-03.jpg)
-![before]({{site.baseurl}}/images/snap/now-02.jpg)
-![before]({{site.baseurl}}/images/snap/now-01.jpg)
-<p>before 2016</p>
+<h2>2016</h2>
+![now]({{site.baseurl}}/images/snap/now-03.jpg)
+![now]({{site.baseurl}}/images/snap/now-02.jpg)
+![now]({{site.baseurl}}/images/snap/now-01.jpg)
+<h2>before 2016</h2>
 ![before]({{site.baseurl}}/images/snap/before-08.jpg)
 ![before]({{site.baseurl}}/images/snap/before-07.jpg)
 ![before]({{site.baseurl}}/images/snap/before-06.jpg)
