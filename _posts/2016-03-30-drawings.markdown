@@ -9,8 +9,11 @@ slug: "app"
 ---
 
 <h1>Sketches</h1>
-<p>全是临摹 / 感谢男朋友的 iPad 和笔</p>
-<h2>上色</h2>
+<h2>嘻嘻</h2>
+![2h work]({{site.baseurl}}/images/sketch/2h1.jpeg)
+<h2>临摹-上色</h2>
+![1h work]({{site.baseurl}}/images/sketch/1h10.jpeg)
+![1h work]({{site.baseurl}}/images/sketch/1h9.jpeg)
 ![1h work]({{site.baseurl}}/images/sketch/1h8.jpeg)
 ![1h work]({{site.baseurl}}/images/sketch/1h7.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h6.png)
@@ -18,7 +21,7 @@ slug: "app"
 ![1h work]({{site.baseurl}}/images/sketch/1h2.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h3.png)
 ![1h work]({{site.baseurl}}/images/sketch/1h1.png)
-<h2>速写</h2>
+<h2>临摹-速写</h2>
 ![5min work]({{site.baseurl}}/images/sketch/5min10.png)
 ![5min work]({{site.baseurl}}/images/sketch/5min9.png)
 ![5min work]({{site.baseurl}}/images/sketch/5min8.png)
@@ -29,5 +32,5 @@ slug: "app"
 ![5min work]({{site.baseurl}}/images/sketch/5min3.png)
 ![5min work]({{site.baseurl}}/images/sketch/5min2.png)
 ![5min work]({{site.baseurl}}/images/sketch/5min1.png)
-<h2>静物</h2>
+<h2>临摹-静物</h2>
 ![10min work]({{site.baseurl}}/images/sketch/10min1.png)
