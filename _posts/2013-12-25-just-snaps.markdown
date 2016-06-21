@@ -13,9 +13,9 @@ slug: "snap"
 <p>I just love **Point and shoot Camera**.</p>
 
 <h2>2016</h2>
-![now]({{site.baseurl}}/images/snap/now-03.jpg)
-![now]({{site.baseurl}}/images/snap/now-02.jpg)
-![now]({{site.baseurl}}/images/snap/now-01.jpg)
+![now]({{site.baseurl}}/images/snap/now-03.JPG)
+![now]({{site.baseurl}}/images/snap/now-02.JPG)
+![now]({{site.baseurl}}/images/snap/now-01.JPG)
 <h2>before 2016</h2>
 ![before]({{site.baseurl}}/images/snap/before-08.jpg)
 ![before]({{site.baseurl}}/images/snap/before-07.jpg)
