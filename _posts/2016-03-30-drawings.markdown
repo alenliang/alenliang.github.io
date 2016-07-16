@@ -9,8 +9,6 @@ slug: "app"
 ---
 
 <h1>Sketches</h1>
-<h2>嘻嘻</h2>
-![2h work]({{site.baseurl}}/images/sketch/2h1.jpeg)
 <h2>临摹-上色</h2>
 ![1h work]({{site.baseurl}}/images/sketch/1h10.jpeg)
 ![1h work]({{site.baseurl}}/images/sketch/1h9.jpeg)
