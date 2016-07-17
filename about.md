@@ -38,5 +38,3 @@ slug: "bio"
 	</li>
 </ul>
 
-![AlenLiang]({{site.baseurl}}/images/index/avatar.jpg)
-
