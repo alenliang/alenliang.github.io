@@ -15,10 +15,9 @@ slug: "bio"
 		<h2>称呼</h2>
 		<p>Alen Liang</p>
 	</li>
+	<li>
 		<h2>联系</h2>
-		<p>
-			simplyaalen@gmail.com
-		</p>
+		<p>simplyaalen@gmail.com</p>
 	</li>
 </ul>
 
